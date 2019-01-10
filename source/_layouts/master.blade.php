@@ -38,6 +38,6 @@
   @yield('contents')
 
 </section>
-<script type="text/javascript" src="jquery-1.8.3.js"></script>
+<script type="text/javascript" src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </body>
 </html>
